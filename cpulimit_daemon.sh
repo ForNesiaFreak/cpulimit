@@ -4,7 +4,7 @@
 # ==============================================================
 
 # Variables
-CPU_LIMIT=85       	# Maximum percentage CPU consumption by each PID
+CPU_LIMIT=90       	# Maximum percentage CPU consumption by each PID
 DAEMON_INTERVAL=3  	# Daemon check interval in seconds
 # You can use the “|” delimiter to include multiple processes. For example, “mysql|firefox|gedit“.
 BLACK_PROCESSES_LIST=   # Limit only processes defined in this variable. If variable is empty (default) all violating processes are limited.
