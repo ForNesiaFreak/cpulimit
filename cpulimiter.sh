@@ -9,7 +9,7 @@ if [[ -z $1 ]] ; then
 fi
 
 if [[ $1 == "install" ]] ; then
-  sudo apt-get install cpulimit gawk
+  sudo apt-get install cpulimit gawk -y
   cd
   mkdir cpulimit
   cd cpulimit
